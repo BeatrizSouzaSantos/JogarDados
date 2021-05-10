@@ -39,6 +39,9 @@
                                 <state key="normal" title="Roll Dices">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="rollDicesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFv-Eq-DD1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MbO-Wp-BLo"/>

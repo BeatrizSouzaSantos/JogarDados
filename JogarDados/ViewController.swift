@@ -19,10 +19,16 @@ class ViewController: UIViewController {
         dadoImageView1.image = #imageLiteral(resourceName: "DiceOne")
         dadoImageView2.image = #imageLiteral(resourceName: "DiceTwo")
         
-        dadoImageView1.alpha = 0.5
-
     }
+    //MARK: - Actions
 
-
+    
+    @IBAction func rollDicesPressed(_ sender: UIButton) {
+        
+        let dado = [(UIImage(named: "DiceOne"))!, (UIImage(named: "DiceTwo"))!, (UIImage(named: "DiceThree"))!, (UIImage(named: "DiceFour"))!, (UIImage(named: "DiceFive"))!, (UIImage(named: "DiceSix"))!]
+        
+        (dadoImageView1.image, dadoImageView2.image) = (dado.randomElement(), dado.randomElement())
+        
+    }
 }
 
