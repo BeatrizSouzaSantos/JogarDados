@@ -25,7 +25,6 @@ class ViewController: UIViewController {
         
         dadoImageView1.image = arrayDados[Int.random (in: 1...5)]
         dadoImageView2.image = arrayDados[Int.random (in: 1...5)]
-        
         }
     
     }
