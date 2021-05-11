@@ -15,6 +15,7 @@
 		61D19EF526405F7F0080D99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D19EF326405F7F0080D99D /* LaunchScreen.storyboard */; };
 		61D19F0026405F7F0080D99D /* JogarDadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D19EFF26405F7F0080D99D /* JogarDadosTests.swift */; };
 		61D19F0B26405F800080D99D /* JogarDadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D19F0A26405F800080D99D /* JogarDadosUITests.swift */; };
+		8BB8730E264A1A5200F23B3A /* pullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8730D264A1A5200F23B3A /* pullRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		61D19F0626405F800080D99D /* JogarDadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogarDadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D19F0A26405F800080D99D /* JogarDadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogarDadosUITests.swift; sourceTree = "<group>"; };
 		61D19F0C26405F800080D99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB8730D264A1A5200F23B3A /* pullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pullRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				61D19EF126405F7F0080D99D /* Assets.xcassets */,
 				61D19EF326405F7F0080D99D /* LaunchScreen.storyboard */,
 				61D19EF626405F7F0080D99D /* Info.plist */,
+				8BB8730D264A1A5200F23B3A /* pullRequest.swift */,
 			);
 			path = JogarDados;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				61D19EED26405F7D0080D99D /* ViewController.swift in Sources */,
 				61D19EE926405F7D0080D99D /* AppDelegate.swift in Sources */,
+				8BB8730E264A1A5200F23B3A /* pullRequest.swift in Sources */,
 				61D19EEB26405F7D0080D99D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
